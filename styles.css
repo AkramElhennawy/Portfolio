@@ -75,7 +75,7 @@ body{
     }
   }
 
-  @media(max-width: 600px){
+  @media(min-width: 319px) and (max-width: 600px){
     .hello{
       font-size: 2.5rem;
     }
