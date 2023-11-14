@@ -77,13 +77,13 @@ body{
 
   @media(max-width: 576px){
     .hello{
-      font-size: 2.25rem;
+      font-size: 2rem;
     }
     .my-name{
-      font-size: 55px;
+      font-size: 50px;
     }
     .bio{
-      font-size: 2.25rem;
+      font-size: 2rem;
     }
 
     }
