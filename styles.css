@@ -1,0 +1,77 @@
+body{
+    background-color: #373d32;
+}
+
+.container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   }
+
+.information{
+
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 150px;
+}
+
+
+.my-photo img {
+    
+    border-radius: 50%;
+    border: 3px dotted rgb(121, 85, 40);
+    padding: 5px;
+  }
+
+  .hello{
+    color: white;
+    font-size: 1.25rem;
+  }
+
+  .my-name{
+    color: white;
+  }
+
+  .bio{
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 100;
+  }
+
+  .job{
+    color: rgb(121, 85, 40);
+    font-weight: 50;
+  }
+
+  .my-photo{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 100px;
+  }
+
+
+  @media(max-width: 768px){
+    img{
+        width: 250px;
+    }
+
+    .my-photo{
+        padding-top: 20px;
+        padding-left: 50px;
+    }
+
+  }
+
+  @media(max-width: 1200px){
+
+    .my-photo{
+        padding-top: 20px;
+        padding-left: 50px;
+    }
+
+  }
