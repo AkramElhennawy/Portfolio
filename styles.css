@@ -21,7 +21,7 @@ body{
 .my-photo img {
     
     border-radius: 50%;
-    border: 3px dotted rgb(121, 85, 40);
+    border: 3px dotted rgb(233, 150, 49);
     padding: 5px;
   }
 
@@ -41,7 +41,7 @@ body{
   }
 
   .job{
-    color: rgb(121, 85, 40);
+    color: rgb(233, 150, 49);
     font-weight: 50;
   }
 
@@ -73,5 +73,19 @@ body{
         padding-top: 20px;
         padding-left: 50px;
     }
-
   }
+
+  @media(max-width: 576px){
+    .hello{
+      font-size: 2.5rem;
+    }
+    .my-name{
+      font-size: 60px;
+    }
+    .bio{
+      font-size: 2.5rem;
+    }
+
+    }
+
+  
