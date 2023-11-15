@@ -76,13 +76,16 @@ body{
 
   @media(max-width: 576px){
     .hello{
-      font-size: 2rem;
+      font-size: 1.25rem;
     }
     .my-name{
-      font-size: 50px;
+      font-size: 40px;
     }
     .bio{
-      font-size: 2rem;
+      font-size: 1rem;
+    }
+    .my-photo{
+      padding-left: 5px;
     }
 
     }
