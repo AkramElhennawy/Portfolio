@@ -7,7 +7,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    
    }
 
 .information{
@@ -54,6 +54,19 @@ body{
     padding-left: 100px;
   }
 
+.buttons{
+  margin-top: 50px;
+  }
+
+  .btn{
+    font-size: 0.850rem;
+    
+  }
+
+
+
+
+  /* Media query */
 
   @media(max-width: 768px){
     img{
@@ -85,7 +98,7 @@ body{
       font-size: 1rem;
     }
     .my-photo{
-      padding-left: 5px;
+      padding-left: 3px;
     }
 
     }
