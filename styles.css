@@ -31,7 +31,7 @@
 .container{
     display: flex;
     gap: 50px;
-    justify-content:center;
+    justify-content: space-evenly;
     align-items: center;
   }
 
@@ -261,6 +261,14 @@ input[type=submit]:hover {
       padding-left: 3px;
     }
 
+    .about{
+      padding-left: 50px;
+      padding-right: 50px;
     }
 
-  
+    .photographing-photo{
+      margin-left: 40px;
+      margin-right: 40px;
+  }
+
+}
